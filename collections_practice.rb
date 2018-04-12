@@ -47,5 +47,5 @@ def find_a(array)
 end
 
 def sum_array(array)
-array.sum
+array[1..100].sum
 end
