@@ -51,8 +51,7 @@ array.inject(0,:+)
 end
 =end
 def sum_array(array)
-  array.each do |a,b|
-    a.collect = a + b
-  end
-  array
+  array.collect do |a,b|
+    a = (a + b)
+end
 end
