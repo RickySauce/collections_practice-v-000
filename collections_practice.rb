@@ -54,4 +54,5 @@ def sum_array(array)
   array.collect do |a,b|
     a = a + b
   end
+  array
 end
