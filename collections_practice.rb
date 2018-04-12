@@ -28,3 +28,12 @@ def reverse_array(array)
   array.reverse!
   array
 end
+
+def kesha_maker(array)
+  kesha = Array.new
+  array.each do |word|
+    word[2].replace "$"
+    kesha << word
+  end
+  kesha
+end
