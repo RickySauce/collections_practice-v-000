@@ -33,7 +33,7 @@ def kesha_maker(array)
   kesha = Array.new
   array.each do |word|
 
-    kesha << word.slice(2).insert(2, "$")
+    kesha << word.slice(2).insert(2,"$")
   end
   kesha
 end
