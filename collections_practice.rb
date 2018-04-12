@@ -32,6 +32,6 @@ end
 def kesha_maker(array)
   kesha = Array.new
   array.reject do |word|
-    word.slice(2)
+    word(2)
     end
   end
