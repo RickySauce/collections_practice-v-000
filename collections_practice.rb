@@ -32,7 +32,7 @@ end
 def kesha_maker(array)
   kesha = Array.new
   array.each do |word|
-    word.slice(2)!
+    word.slice(2)
     kesha << word
   end
   kesha
