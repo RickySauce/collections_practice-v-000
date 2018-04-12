@@ -56,6 +56,6 @@ def sum_array(array)
   until array.length < i
     array[0] += array[1]
     i += 1
-   
+
  end
 end
