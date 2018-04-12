@@ -52,9 +52,9 @@ end
 =end
 [11,4,7,8,9,100,134]
 def sum_array(array)
-  i = 0
-     while i < @a.length
-       @sum += @a[i]
-       i = i + 1
-     end
+sum = 0
+  array.each do |i|
+    sum +=
+  end
+  sum
 end
