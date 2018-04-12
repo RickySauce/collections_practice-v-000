@@ -32,7 +32,7 @@ end
 def kesha_maker(array)
   kesha = Array.new
   array.each do |word|
-    word[2].remove
+    word[2].delete
     word[2].add "$"
     kesha << word
   end
