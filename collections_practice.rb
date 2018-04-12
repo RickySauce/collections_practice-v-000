@@ -72,6 +72,6 @@ end
 =end
 def add_s(array)
   array.each_with_index.collect do |element,index|
-    element << "s" unless array[index] == array[1])
+    element << "s" unless array[index] == array[1]
   end
 end
