@@ -31,7 +31,7 @@ end
 
 def kesha_maker(array)
   kesha = Array.new
-  array.reject do |word|
-    word(2)
+  array.collect do |word|
+    word.reject(2)
     end
   end
