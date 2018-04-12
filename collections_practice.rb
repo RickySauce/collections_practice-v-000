@@ -46,6 +46,12 @@ def find_a(array)
   a
 end
 
-def sum_array(array)
+=begin def sum_array(array)
 array.inject(0,:+)
+end
+=end
+def sum_array(array)
+  array.collect do |a,b|
+    a = a + begin
+  end
 end
