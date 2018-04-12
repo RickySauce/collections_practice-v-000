@@ -55,5 +55,5 @@ def sum_array(array)
   array.collect do |integer|
     array[0] = (integer + array[1])
  end
-
+array
 end
