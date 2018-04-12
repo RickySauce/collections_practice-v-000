@@ -52,8 +52,8 @@ end
 =end
 [11,4,7,8,9,100,134]
 def sum_array(array)
-  array.collect do |integer|
-    integer = array[0] + array[1]
+  array.collect do |a,b|
+    array[0] = a + b
  end
 array
 end
