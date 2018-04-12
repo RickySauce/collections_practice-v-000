@@ -50,8 +50,9 @@ end
 array.inject(0,:+)
 end
 =end
+[11,4,7,8,9,100,134]
 def sum_array(array)
-  array.collect do |a,b|
-    a = (a + b)
+  array.collect do |integer1,integer2|
+    array[integer1] = integer1 + integer2
 end
 end
