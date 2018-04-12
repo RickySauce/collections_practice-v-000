@@ -32,7 +32,7 @@ end
 def kesha_maker(array)
   kesha = Array.new
   array.each_with_index do |word, 2|
-  kesha << word(2) = "$"
+  kesha << word(2) == "$"
     end
     kesha
   end
