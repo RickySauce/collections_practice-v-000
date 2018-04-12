@@ -60,12 +60,18 @@ sum = 0
 end
 
 
-def add_s(array)
+=begin def add_s(array)
   array.collect do |element|
     if element == array[1]
       element = element
     else
         element << "s"
     end
+  end
+end
+=end
+def add_s(array)
+  array.each_with_index.collect do |element,index|
+    element << "s" unless element[index] == array[1]
   end
 end
