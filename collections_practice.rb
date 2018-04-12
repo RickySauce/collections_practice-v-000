@@ -32,10 +32,10 @@ end
 def kesha_maker(array)
   kesha = Array.new
   array.each do |word|
-    word.split
-    word.delete(2)
-    word.join
-    kesha << word.insert(2,"$")
+    range = word.split
+    range = word.delete(2)
+     range = word.join
+    kesha << range.insert(2,"$")
   end
   kesha
 end
