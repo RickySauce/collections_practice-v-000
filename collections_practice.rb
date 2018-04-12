@@ -31,7 +31,8 @@ end
 
 def kesha_maker(array)
   kesha = Array.new
-  array.collect do |word|
-    word.delete(2)
+  array.each_with_index do |word, 2|
+  kesha << word(2).insert "$"
     end
+    kesha
   end
