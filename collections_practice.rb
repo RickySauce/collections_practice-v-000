@@ -34,5 +34,4 @@ def kesha_maker(array)
   array.each do |word|
     word.slice(2)!
     end
-  kesha
-end
+  end
