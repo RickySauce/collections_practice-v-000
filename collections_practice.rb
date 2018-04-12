@@ -53,7 +53,7 @@ end
 [11,4,7,8,9,100,134]
 def sum_array(array)
 sum = 0
-  array.each do |i|
+  array.collect do |i|
     sum += i
   end
   sum
