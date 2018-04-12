@@ -58,3 +58,7 @@ sum = 0
   end
   sum
 end
+
+
+def add_s(array)
+end
