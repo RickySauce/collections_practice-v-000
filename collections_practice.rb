@@ -32,7 +32,7 @@ end
 def kesha_maker(array)
   kesha = Array.new
   array.each do |word|
-    word.remove(2)
+    word.delete(2)
 
     kesha << word
   end
