@@ -52,6 +52,6 @@ end
 =end
 def sum_array(array)
   array.collect do |a,b|
-    a = a + begin
+    a = a + b
   end
 end
