@@ -53,6 +53,6 @@ end
 [11,4,7,8,9,100,134]
 def sum_array(array)
  until array.length < 2
-   array[0] = array[0] + array[1]
+   array[0] += array[1]
  end
 end
